@@ -1,7 +1,7 @@
 public abstract class DebugBoat
 {
    String boatType = new String();
-   int passengers;
+   protected int passengers;
    String power = new String();
    public DebugBoat(String bt)
    {
